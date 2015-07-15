@@ -19,7 +19,7 @@
     "lnfs-cli": "^1.0.0",
     "mkdirp": "^0.5.1",
     "mocha": "*",
-    "nodetree": "0.0.2",
+    "nodetree": "^0.0.2",
     "rimraf": "^2.4.1",
     "yeoman-assert": "^2.0.0",
     "yo": "^1.4.7"
