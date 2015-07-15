@@ -19,6 +19,7 @@
     "lnfs": "kevva/lnfs",
     "mkdirp": "^0.5.1",
     "mocha": "*",
+    "nodetree": "0.0.2",
     "rimraf": "^2.4.1",
     "yeoman-assert": "^2.0.0",
     "yo": "^1.4.7"
@@ -48,6 +49,7 @@
     "example:link": "rimraf example && mkdirp example/node_modules/@sanemat && lnfs . example/node_modules/@sanemat/generator-nm",
     "git:tag": "git tag v${npm_package_version}",
     "test": "mocha",
-    "verify": "npm run test && npm run example:link"
+    "verify": "npm run test && npm run example:link && npm run verify:link",
+    "verify:link": "nodetree -L 2 example/node_modules/@sanemat/"
   }
 }
