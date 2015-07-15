@@ -38,6 +38,7 @@
   "license": "MIT",
   "repository": "pandawing/generator-nm",
   "scripts": {
+    "git:tag": "git tag v${npm_package_version}",
     "test": "mocha",
     "verify": "npm run test"
   }
