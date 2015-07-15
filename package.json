@@ -38,6 +38,7 @@
   "license": "MIT",
   "repository": "pandawing/generator-nm",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "verify": "npm run test"
   }
 }
