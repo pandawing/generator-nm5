@@ -32,7 +32,7 @@ Use [chalk](https://github.com/sindresorhus/chalk) if you want colors in your CL
 
 ## License
 
-### Forked generator-nm
+### Forked @sanemat/generator-nm
 
 MIT © [Sanemat](http://sane.jp)
 
