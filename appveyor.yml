@@ -14,7 +14,7 @@ build: off
 
 # test
 test_script:
-  - npm run verify
+- npm run verify
 
 # deploy
 deploy: off
@@ -24,3 +24,4 @@ notifications:
 - provider: Email
   to:
   - ogataken@gmail.com
+  on_build_status_changed: true
