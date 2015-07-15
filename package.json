@@ -1,13 +1,13 @@
 {
-  "name": "generator-nm",
-  "version": "1.4.1",
+  "name": "@sanemat/generator-nm",
+  "version": "2.0.0",
   "description": "Scaffold out a node module",
   "license": "MIT",
-  "repository": "sindresorhus/generator-nm",
+  "repository": "pandawing/generator-nm",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "sanemat",
+    "email": "ogataken@gmail.com",
+    "url": "http://sane.jp"
   },
   "engines": {
     "node": ">=0.10.0"
