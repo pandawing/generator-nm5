@@ -16,6 +16,8 @@
   },
   "devDependencies": {
     "babel": "^5.6.23",
+    "eclint": "^0.2.6",
+    "globstar": "^1.0.0",
     "lnfs-cli": "^1.0.0",
     "mkdirp": "^0.5.1",
     "mocha": "*",
@@ -44,13 +46,15 @@
   "license": "MIT",
   "repository": "pandawing/generator-nm",
   "scripts": {
+    "eclint": "globstar --node -- eclint check \"{@(**|!node_modules|!temp)/,}*.{js,yml,md,json}\"",
+    "lint": "npm run eclint",
     "example": "npm run example:link && npm run example:build && npm run example:unlink",
     "example:build": "cd example && ../node_modules/yo/lib/cli.js @sanemat/nm && cd ..",
     "example:link": "rimraf example && mkdirp example/node_modules/@sanemat && lnfs . example/node_modules/@sanemat/generator-nm",
     "example:unlink": "rimraf example/node_modules/@sanemat/generator-nm",
     "git:tag": "git tag v${npm_package_version}",
     "test": "mocha",
-    "verify": "npm run test && npm run example:link && npm run verify:link && npm run example:unlink && npm run verify:link",
+    "verify": "npm run lint && npm run test && npm run example:link && npm run verify:link && npm run example:unlink && npm run verify:link",
     "verify:link": "nodetree -L 2 example/node_modules/@sanemat/"
   }
 }
