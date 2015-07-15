@@ -1,34 +1,12 @@
 {
   "name": "@sanemat/generator-nm",
-  "version": "2.0.0",
   "description": "Scaffold out a node module",
-  "license": "MIT",
-  "repository": "pandawing/generator-nm",
+  "version": "2.0.0",
   "author": {
     "name": "Sanemat",
     "email": "ogataken@gmail.com",
     "url": "http://sane.jp"
   },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "files": [
-    "app"
-  ],
-  "keywords": [
-    "yeoman-generator",
-    "plugin",
-    "boilerplate",
-    "template",
-    "scaffold",
-    "node",
-    "module",
-    "node_module",
-    "node-module"
-  ],
   "dependencies": {
     "humanize-url": "^1.0.1",
     "normalize-url": "^1.2.0",
@@ -39,5 +17,27 @@
   "devDependencies": {
     "mocha": "*",
     "yeoman-assert": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "boilerplate",
+    "module",
+    "node",
+    "node-module",
+    "node_module",
+    "plugin",
+    "scaffold",
+    "template",
+    "yeoman-generator"
+  ],
+  "license": "MIT",
+  "repository": "pandawing/generator-nm",
+  "scripts": {
+    "test": "mocha"
   }
 }
