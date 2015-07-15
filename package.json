@@ -47,6 +47,6 @@
     "example:link": "rimraf example && mkdirp example/node_modules/@sanemat && ln -s ../../.. example/node_modules/@sanemat/generator-nm",
     "git:tag": "git tag v${npm_package_version}",
     "test": "mocha",
-    "verify": "npm run test && npm run example"
+    "verify": "npm run test && npm run example:link"
   }
 }
