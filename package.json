@@ -42,11 +42,11 @@
   "license": "MIT",
   "repository": "pandawing/generator-nm",
   "scripts": {
+    "example": "npm run example:link && npm run example:build",
+    "example:build": "cd example && ../node_modules/yo/lib/cli.js @sanemat/nm && unlink node_modules/@sanemat/generator-nm && cd ..",
+    "example:link": "rimraf example && mkdirp example/node_modules/@sanemat && ln -s ../../.. example/node_modules/@sanemat/generator-nm",
     "git:tag": "git tag v${npm_package_version}",
     "test": "mocha",
-    "example:link": "rimraf example && mkdirp example/node_modules/@sanemat && ln -s ../../.. example/node_modules/@sanemat/generator-nm",
-    "example:build": "cd example && ../node_modules/yo/lib/cli.js @sanemat/nm && unlink node_modules/@sanemat/generator-nm && cd ..",
-    "example": "npm run example:link && npm run example:build",
     "verify": "npm run test"
   }
 }
