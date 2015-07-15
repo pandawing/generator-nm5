@@ -15,8 +15,12 @@
     "yeoman-generator": "^0.20.1"
   },
   "devDependencies": {
+    "babel": "^5.6.23",
+    "mkdirp": "^0.5.1",
     "mocha": "*",
-    "yeoman-assert": "^2.0.0"
+    "rimraf": "^2.4.1",
+    "yeoman-assert": "^2.0.0",
+    "yo": "^1.4.7"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -40,6 +44,9 @@
   "scripts": {
     "git:tag": "git tag v${npm_package_version}",
     "test": "mocha",
+    "example:link": "rimraf example && mkdirp example/node_modules/@sanemat && ln -s ../../.. example/node_modules/@sanemat/generator-nm",
+    "example:build": "cd example && ../node_modules/yo/lib/cli.js @sanemat/nm && unlink node_modules/@sanemat/generator-nm && cd ..",
+    "example": "npm run example:link && npm run example:build",
     "verify": "npm run test"
   }
 }
