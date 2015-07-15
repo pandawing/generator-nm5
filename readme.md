@@ -1,10 +1,10 @@
-# generator-nm [![Build Status](https://travis-ci.org/sindresorhus/generator-nm.svg?branch=master)](https://travis-ci.org/sindresorhus/generator-nm)
+# generator-nm [![Build Status](https://travis-ci.org/pandawing/generator-nm.svg?branch=master)](https://travis-ci.org/pandawing/generator-nm)
 
 > Scaffold out a [node module](https://github.com/sindresorhus/node-module-boilerplate)
 
 Optionally with a [CLI](http://en.wikipedia.org/wiki/Command-line_interface).
 
-This is what I use for [my own modules](https://www.npmjs.com/~sindresorhus).
+This is what I use for [my own modules](https://www.npmjs.com/~sanemat).
 
 ![](screenshot.png)
 
@@ -12,7 +12,7 @@ This is what I use for [my own modules](https://www.npmjs.com/~sindresorhus).
 ## Install
 
 ```
-$ npm install --global generator-nm
+$ npm install --global @sanemat/generator-nm
 ```
 
 
@@ -21,7 +21,7 @@ $ npm install --global generator-nm
 With [yo](https://github.com/yeoman/yo):
 
 ```
-$ yo nm
+$ yo @sanemat/nm
 ```
 
 
@@ -31,5 +31,11 @@ Use [chalk](https://github.com/sindresorhus/chalk) if you want colors in your CL
 
 
 ## License
+
+### Forked generator-nm
+
+MIT © [Sanemat](http://sane.jp)
+
+### Original generator-nm
 
 MIT © [Sindre Sorhus](http://sindresorhus.com)
