@@ -1,3 +1,10 @@
+# http://www.appveyor.com/docs/appveyor-yml
 before_test:
 - node --version
 - npm --version
+build: off
+deploy: off
+notifications:
+- provider: Email
+  to:
+  - ogataken@gmail.com
