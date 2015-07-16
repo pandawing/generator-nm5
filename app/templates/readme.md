@@ -1,4 +1,6 @@
-# <%= moduleName %> [![Build Status](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>.svg?branch=master)](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>)
+# <%= moduleName %>
+
+[![Build Status][travis-image]][travis-url]
 
 > My spectacular module
 
@@ -67,3 +69,6 @@ Lorem ipsum.
 ## License
 
 MIT © [<%= name %>](<%= website %>)
+
+[travis-url]: https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>
+[travis-image]: https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>.svg?branch=master
