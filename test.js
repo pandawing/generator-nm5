@@ -27,6 +27,7 @@ describe('generator', function () {
 			'.travis.yml',
 			'.tachikoma.yml',
 			'appveyor.yml',
+			'enable-power-assert.js',
 			'index.js',
 			'license',
 			'package.json',
