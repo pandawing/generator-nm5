@@ -66,6 +66,7 @@ module.exports = yeoman.generators.Base.extend({
 			mv('gitattributes', '.gitattributes');
 			mv('gitignore', '.gitignore');
 			mv('travis.yml', '.travis.yml');
+			mv('tachikoma.yml', '.tachikoma.yml');
 			mv('_package.json', 'package.json');
 
 			cb();
