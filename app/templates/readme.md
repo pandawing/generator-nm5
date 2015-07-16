@@ -65,6 +65,9 @@ Default: `false`
 
 Lorem ipsum.
 
+## Changelog
+
+[changelog.md](./changelog.md).
 
 ## License
 

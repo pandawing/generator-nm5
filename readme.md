@@ -31,6 +31,9 @@ $ yo @sanemat/nm
 
 Use [chalk](https://github.com/sindresorhus/chalk) if you want colors in your CLI.
 
+## Changelog
+
+[changelog.md](./changelog.md).
 
 ## License
 
