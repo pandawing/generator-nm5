@@ -1,4 +1,6 @@
-# generator-nm [![Build Status](https://travis-ci.org/pandawing/generator-nm.svg?branch=master)](https://travis-ci.org/pandawing/generator-nm)
+# generator-nm
+
+[![Build Status][travis-image]][travis-url]
 
 > Scaffold out a [node module](https://github.com/sindresorhus/node-module-boilerplate)
 
@@ -39,3 +41,6 @@ MIT © [Sanemat](http://sane.jp)
 ### Original generator-nm
 
 MIT © [Sindre Sorhus](http://sindresorhus.com)
+
+[travis-url]: https://travis-ci.org/pandawing/generator-nm
+[travis-image]: https://travis-ci.org/pandawing/generator-nm.svg?branch=master
