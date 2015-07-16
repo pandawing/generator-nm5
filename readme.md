@@ -44,7 +44,7 @@ Use [chalk](https://github.com/sindresorhus/chalk) if you want colors in your CL
 
 MIT © [Sanemat](http://sane.jp)
 
-### Original generator-nm
+### Original [generator-nm](https://github.com/sindresorhus/generator-nm)
 
 MIT © [Sindre Sorhus](http://sindresorhus.com)
 
