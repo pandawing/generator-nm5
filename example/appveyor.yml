@@ -6,6 +6,7 @@ clone_depth: 20
 # install
 install:
 - node --version
+- npm update -g npm
 - npm --version
 - npm install
 
