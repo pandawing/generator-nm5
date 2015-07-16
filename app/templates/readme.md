@@ -71,6 +71,6 @@ Lorem ipsum.
 MIT © [<%= name %>](<%= website %>)
 
 [travis-url]: https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>
-[travis-image]: https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>.svg?branch=master
+[travis-image]: https://img.shields.io/travis/<%= githubUsername %>/<%= moduleName %>/master.svg
 [appveyor-url]: https://ci.appveyor.com/project/<%= githubUsername %>/<%= moduleName %>/branch/master
-[appveyor-image]: https://ci.appveyor.com/api/projects/status/YOUR_KEY/branch/master?svg=true
+[appveyor-image]: https://img.shields.io/appveyor/ci/<%= githubUsername %>/<%= moduleName %>/master.svg

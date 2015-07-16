@@ -43,6 +43,6 @@ MIT © [Sanemat](http://sane.jp)
 MIT © [Sindre Sorhus](http://sindresorhus.com)
 
 [travis-url]: https://travis-ci.org/pandawing/generator-nm
-[travis-image]: https://travis-ci.org/pandawing/generator-nm.svg?branch=master
+[travis-image]: https://img.shields.io/travis/pandawing/generator-nm/master.svg
 [appveyor-url]: https://ci.appveyor.com/project/sanemat/generator-nm/branch/master
-[appveyor-image]: https://ci.appveyor.com/api/projects/status/5ffy0tbjvo62p2vs/branch/master?svg=true
+[appveyor-image]: https://img.shields.io/appveyor/ci/pandawing/generator-nm/master.svg
