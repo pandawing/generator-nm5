@@ -4,20 +4,20 @@ var meow = require('meow');
 var <%= camelModuleName %> = require('./');
 
 var cli = meow({
-	help: [
-		'Usage',
-		'  $ <%= moduleName %> [input]',
-		'',
-		'Examples',
-		'  $ <%= moduleName %>',
-		'  unicorns & rainbows',
-		'',
-		'  $ <%= moduleName %> ponies',
-		'  ponies & rainbows',
-		'',
-		'Options',
-		'  --foo  Lorem ipsum. Default: false'
-	]
+  help: [
+    'Usage',
+    '  $ <%= moduleName %> [input]',
+    '',
+    'Examples',
+    '  $ <%= moduleName %>',
+    '  unicorns & rainbows',
+    '',
+    '  $ <%= moduleName %> ponies',
+    '  ponies & rainbows',
+    '',
+    'Options',
+    '  --foo  Lorem ipsum. Default: false'
+  ]
 });
 
 console.log(<%= camelModuleName %>(cli.input[0] || 'unicorns'));
