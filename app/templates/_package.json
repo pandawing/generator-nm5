@@ -30,9 +30,12 @@
   <% } %>},
   "devDependencies": {
     "mocha": "*",
-    "fixpack": "*"
+    "fixpack": "*",
+    "touch": "*",
+    "conventional-changelog": "^0.1.0-beta"
   },
   "scripts": {
+    "changelog": "touch changelog.md && conventional-changelog -i changelog.md --overwrite --preset angular",
     "fixpack": "fixpack"
   }
 }
