@@ -74,6 +74,12 @@ module.exports = yeoman.generators.Base.extend({
 		}.bind(this));
 	},
 	install: function () {
-		this.installDependencies({bower: false});
+		this.installDependencies({
+			bower: false,
+			callback: this._injectDependencies.bind(this)
+		});
+	},
+	_injectDependencies: function () {
+		this.spawnCommand('npm', ['run', 'fixpack']);
 	}
 });
