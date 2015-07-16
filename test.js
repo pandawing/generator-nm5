@@ -24,6 +24,7 @@ describe('generator', function () {
 			'.gitattributes',
 			'.gitignore',
 			'.travis.yml',
+			'changelog.md',
 			'index.js',
 			'license',
 			'package.json',

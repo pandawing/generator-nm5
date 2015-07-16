@@ -1,6 +1,6 @@
 # example [![Build Status](https://travis-ci.org/sanemat/example.svg?branch=master)](https://travis-ci.org/sanemat/example)
 
-> My outstanding module
+> My spectacular module
 
 
 ## Install
