@@ -48,6 +48,7 @@ Currently, it uses :
     * tachikoma (tachikoma.io)
 * Test
     * mocha
+    * power-assert
 * Utility
     * fixpack
     * conventional-changelog
