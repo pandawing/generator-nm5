@@ -57,7 +57,7 @@
     "example:unlink": "rimraf example/node_modules/@sanemat/generator-nm",
     "fixpack": "fixpack",
     "git:tag": "git tag v${npm_package_version}",
-    "lint": "npm run eclint",
+    "lint": "npm run eclint && npm run eslint",
     "test": "mocha",
     "verify": "npm run lint && npm run test && npm run example:link && npm run verify:link && npm run example:unlink && npm run verify:link",
     "verify:link": "nodetree -L 2 example/node_modules/@sanemat/"
