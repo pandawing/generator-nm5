@@ -1,7 +1,7 @@
 {
   "name": "example",
   "version": "0.0.0",
-  "description": "My brilliant module",
+  "description": "My outstanding module",
   "license": "MIT",
   "repository": "sanemat/example",
   "author": {
@@ -29,6 +29,10 @@
     "meow": "^3.3.0"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "fixpack": "*"
+  },
+  "scripts": {
+    "fixpack": "fixpack"
   }
 }
