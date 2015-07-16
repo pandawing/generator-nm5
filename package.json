@@ -16,6 +16,7 @@
   "devDependencies": {
     "conventional-changelog": "0.1.0-beta.1",
     "eclint": "^0.2.6",
+    "eslint": "^1.0.0-rc-1",
     "fixpack": "^2.2.0",
     "globstar": "^1.0.0",
     "lnfs-cli": "^1.0.0",
@@ -49,6 +50,7 @@
   "scripts": {
     "changelog": "touch changelog.md && conventional-changelog -i changelog.md --overwrite --preset angular",
     "eclint": "globstar --ignore \"{{,**/}node_modules/**,temp/**}\" -- eclint check \"{,**/}*.{js,yml,md,json}\"",
+    "eslint": "eslint .",
     "example": "npm run example:link && npm run example:build && npm run example:unlink",
     "example:build": "cd example && ../node_modules/.bin/yo @sanemat/nm && cd ..",
     "example:link": "rimraf example && mkdirp example/node_modules/@sanemat && lnfs . example/node_modules/@sanemat/generator-nm",
