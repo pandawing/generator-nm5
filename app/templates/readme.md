@@ -1,4 +1,6 @@
-# <%= moduleName %> [![Build Status](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>.svg?branch=master)](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>)
+# <%= moduleName %>
+
+[![NPM version][npm-image]][npm-url] [![Travis-CI Status][travis-image]][travis-url] [![Appveyor Status][appveyor-image]][appveyor-url] [![Daviddm Status][daviddm-image]][daviddm-url]
 
 > My spectacular module
 
@@ -63,7 +65,19 @@ Default: `false`
 
 Lorem ipsum.
 
+## Changelog
+
+[changelog.md](./changelog.md).
 
 ## License
 
 MIT © [<%= name %>](<%= website %>)
+
+[travis-url]: https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>
+[travis-image]: https://img.shields.io/travis/<%= githubUsername %>/<%= moduleName %>/master.svg?style=flat-square&label=travis
+[appveyor-url]: https://ci.appveyor.com/project/<%= githubUsername %>/<%= moduleName %>/branch/master
+[appveyor-image]: https://img.shields.io/appveyor/ci/<%= githubUsername %>/<%= moduleName %>/master.svg?style=flat-square&label=appveyor
+[npm-url]: https://npmjs.org/package/<%= moduleName %>
+[npm-image]: https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square
+[daviddm-url]: https://david-dm.org/<%= githubUsername %>/<%= moduleName %>
+[daviddm-image]: https://img.shields.io/david/<%= githubUsername %>/<%= moduleName %>.svg?style=flat-square
