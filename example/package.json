@@ -13,9 +13,6 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "scripts": {
-    "test": "mocha"
-  },
   "files": [
     "index.js",
     "cli.js"
@@ -35,7 +32,9 @@
     "conventional-changelog": "^0.1.0-beta",
     "eclint": "*",
     "globstar": "*",
-    "eslint": "^1.0.0-rc"
+    "eslint": "^1.0.0-rc",
+    "power-assert": "*",
+    "espower-loader": "*"
   },
   "scripts": {
     "changelog": "touch changelog.md && conventional-changelog -i changelog.md --overwrite --preset angular",
@@ -44,7 +43,7 @@
     "fixpack": "fixpack",
     "git:tag": "git tag v${npm_package_version}",
     "lint": "npm run eclint && npm run eslint",
-    "test": "mocha",
+    "test": "mocha --require ./enable-power-assert.js -- ./test.js",
     "verify": "npm run lint && npm run test"
   }
 }
