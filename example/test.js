@@ -3,5 +3,5 @@ var assert = require('assert');
 var example = require('./');
 
 it('should ', function () {
-	assert.strictEqual(example('unicorns'), 'unicorns & rainbows');
+  assert.strictEqual(example('unicorns'), 'unicorns & rainbows');
 });
