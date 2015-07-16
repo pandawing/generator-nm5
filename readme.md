@@ -26,6 +26,9 @@ With [yo](https://github.com/yeoman/yo):
 $ yo @sanemat/nm
 ```
 
+## Example
+
+[Build example](./example).
 
 ## Tip
 
