@@ -51,7 +51,7 @@
     "changelog": "touch changelog.md && conventional-changelog -i changelog.md --overwrite --preset angular",
     "eclint": "globstar --ignore \"{{,**/}node_modules/**,temp/**}\" -- eclint check \"{,**/}*.{js,yml,md,json}\"",
     "example": "npm run example:link && npm run example:build && npm run example:unlink",
-    "example:build": "cd example && ../node_modules/yo/lib/cli.js @sanemat/nm && cd ..",
+    "example:build": "cd example && ../node_modules/.bin/yo @sanemat/nm && cd ..",
     "example:link": "rimraf example && mkdirp example/node_modules/@sanemat && lnfs . example/node_modules/@sanemat/generator-nm",
     "example:unlink": "rimraf example/node_modules/@sanemat/generator-nm",
     "fixpack": "fixpack",
