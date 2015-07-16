@@ -1,15 +1,27 @@
 {
   "name": "example",
-  "version": "0.0.0",
   "description": "My spectacular module",
-  "license": "MIT",
-  "repository": "sanemat/example",
+  "version": "0.0.0",
   "author": {
     "name": "sanemat",
     "email": "o.gata.ken@gmail.com",
     "url": "example.com"
   },
   "bin": "cli.js",
+  "dependencies": {
+    "meow": "^3.3.0"
+  },
+  "devDependencies": {
+    "conventional-changelog": "^0.1.0-beta",
+    "eclint": "*",
+    "eslint": "^1.0.0-rc",
+    "espower-loader": "*",
+    "fixpack": "*",
+    "globstar": "*",
+    "mocha": "*",
+    "power-assert": "*",
+    "touch": "*"
+  },
   "engines": {
     "node": ">=0.10.0"
   },
@@ -18,24 +30,12 @@
     "cli.js"
   ],
   "keywords": [
-    "cli-app",
+    "",
     "cli",
-    ""
+    "cli-app"
   ],
-  "dependencies": {
-    "meow": "^3.3.0"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "fixpack": "*",
-    "touch": "*",
-    "conventional-changelog": "^0.1.0-beta",
-    "eclint": "*",
-    "globstar": "*",
-    "eslint": "^1.0.0-rc",
-    "power-assert": "*",
-    "espower-loader": "*"
-  },
+  "license": "MIT",
+  "repository": "sanemat/example",
   "scripts": {
     "changelog": "touch changelog.md && conventional-changelog -i changelog.md --overwrite --preset angular",
     "eclint": "globstar --ignore \"node_modules/**\" -- eclint check \"*.{js,yml,md,json}\"",
