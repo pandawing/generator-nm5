@@ -71,10 +71,10 @@ Lorem ipsum.
 MIT © [<%= name %>](<%= website %>)
 
 [travis-url]: https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>
-[travis-image]: https://img.shields.io/travis/<%= githubUsername %>/<%= moduleName %>/master.svg
+[travis-image]: https://img.shields.io/travis/<%= githubUsername %>/<%= moduleName %>/master.svg?style=flat-square
 [appveyor-url]: https://ci.appveyor.com/project/<%= githubUsername %>/<%= moduleName %>/branch/master
-[appveyor-image]: https://img.shields.io/appveyor/ci/<%= githubUsername %>/<%= moduleName %>/master.svg
+[appveyor-image]: https://img.shields.io/appveyor/ci/<%= githubUsername %>/<%= moduleName %>/master.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/<%= moduleName %>
-[npm-image]: https://img.shields.io/npm/v/<%= moduleName %>.svg
+[npm-image]: https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square
 [daviddm-url]: https://david-dm.org/<%= githubUsername %>/<%= moduleName %>
-[daviddm-image]: https://img.shields.io/david/<%= githubUsername %>/<%= moduleName %>.svg
+[daviddm-image]: https://img.shields.io/david/<%= githubUsername %>/<%= moduleName %>.svg?style=flat-square
