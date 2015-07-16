@@ -46,7 +46,7 @@
   "license": "MIT",
   "repository": "pandawing/generator-nm",
   "scripts": {
-    "eclint": "globstar --node -- eclint check \"{@(**|!node_modules|!temp)/,}*.{js,yml,md,json}\"",
+    "eclint": "globstar --ignore \"{{,**/}node_modules/**,temp/**}\" -- eclint check \"{,**/}*.{js,yml,md,json}\"",
     "lint": "npm run eclint",
     "example": "npm run example:link && npm run example:build && npm run example:unlink",
     "example:build": "cd example && ../node_modules/yo/lib/cli.js @sanemat/nm && cd ..",
