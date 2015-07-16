@@ -1,6 +1,6 @@
 # generator-nm
 
-[![NPM version][npm-image]][npm-url] [![Travis-CI Status][travis-image]][travis-url] [![Appveyor Status][appveyor-image]][appveyor-url]
+[![NPM version][npm-image]][npm-url] [![Travis-CI Status][travis-image]][travis-url] [![Appveyor Status][appveyor-image]][appveyor-url] [![Daviddm Status][daviddm-image]][daviddm-url]
 
 > Scaffold out a [node module](https://github.com/sindresorhus/node-module-boilerplate)
 
@@ -48,3 +48,5 @@ MIT © [Sindre Sorhus](http://sindresorhus.com)
 [appveyor-image]: https://img.shields.io/appveyor/ci/pandawing/generator-nm/master.svg
 [npm-url]: https://npmjs.org/package/@sanemat/generator-nm
 [npm-image]: https://img.shields.io/npm/v/@sanemat/generator-nm.svg
+[daviddm-url]: https://david-dm.org/pandawing/generator-nm
+[daviddm-image]: https://img.shields.io/david/pandawing/generator-nm.svg

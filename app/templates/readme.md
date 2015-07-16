@@ -1,6 +1,6 @@
 # <%= moduleName %>
 
-[![NPM version][npm-image]][npm-url] [![Travis-CI Status][travis-image]][travis-url] [![Appveyor Status][appveyor-image]][appveyor-url]
+[![NPM version][npm-image]][npm-url] [![Travis-CI Status][travis-image]][travis-url] [![Appveyor Status][appveyor-image]][appveyor-url] [![Daviddm Status][daviddm-image]][daviddm-url]
 
 > My spectacular module
 
@@ -76,3 +76,5 @@ MIT © [<%= name %>](<%= website %>)
 [appveyor-image]: https://img.shields.io/appveyor/ci/<%= githubUsername %>/<%= moduleName %>/master.svg
 [npm-url]: https://npmjs.org/package/<%= moduleName %>
 [npm-image]: https://img.shields.io/npm/v/<%= moduleName %>.svg
+[daviddm-url]: https://david-dm.org/<%= githubUsername %>/<%= moduleName %>
+[daviddm-image]: https://img.shields.io/david/<%= githubUsername %>/<%= moduleName %>.svg
