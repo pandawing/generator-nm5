@@ -29,6 +29,10 @@
     "meow": "^3.3.0"
   <% } %>},
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "fixpack": "*"
+  },
+  "scripts": {
+    "fixpack": "fixpack"
   }
 }
