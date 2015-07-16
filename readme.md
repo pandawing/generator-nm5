@@ -10,6 +10,7 @@ This is what I use for [my own modules](https://www.npmjs.com/~sanemat).
 
 ![](screenshot.png)
 
+A Cross-Platform Generator For OS X, Linux And Windows.
 
 ## Install
 
@@ -34,6 +35,23 @@ $ yo @sanemat/nm
 
 Use [chalk](https://github.com/sindresorhus/chalk) if you want colors in your CLI.
 
+## Features
+
+Currently, it uses :
+
+* Lint
+    * eslint
+    * eclint (editorconfig)
+* CI
+    * travis-ci
+    * appveyor
+    * tachikoma (tachikoma.io)
+* Test
+    * mocha
+* Utility
+    * fixpack
+    * conventional-changelog
+
 ## Changelog
 
 [changelog.md](./changelog.md).
@@ -44,7 +62,7 @@ Use [chalk](https://github.com/sindresorhus/chalk) if you want colors in your CL
 
 MIT © [Sanemat](http://sane.jp)
 
-### Original generator-nm
+### Original [generator-nm](https://github.com/sindresorhus/generator-nm)
 
 MIT © [Sindre Sorhus](http://sindresorhus.com)
 
