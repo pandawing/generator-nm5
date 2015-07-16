@@ -24,7 +24,7 @@
     "mocha": "*",
     "nodetree": "^0.0.2",
     "rimraf": "^2.4.1",
-    "touch": "sanemat/node-touch#chore/add-shebang",
+    "touch": "git://github.com/sanemat/node-touch.git#chore/add-shebang",
     "yeoman-assert": "^2.0.0",
     "yo": "^1.4.7"
   },
