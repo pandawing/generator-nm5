@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "babel": "^5.6.23",
+    "conventional-changelog": "0.1.0-beta.1",
     "eclint": "^0.2.6",
     "fixpack": "^2.2.0",
     "globstar": "^1.0.0",
@@ -23,6 +24,7 @@
     "mocha": "*",
     "nodetree": "^0.0.2",
     "rimraf": "^2.4.1",
+    "touch": "0.0.4",
     "yeoman-assert": "^2.0.0",
     "yo": "^1.4.7"
   },
@@ -46,6 +48,7 @@
   "license": "MIT",
   "repository": "pandawing/generator-nm",
   "scripts": {
+    "changelog": "touch changelog.md && conventional-changelog -i changelog.md --overwrite --preset angular",
     "eclint": "globstar --ignore \"{{,**/}node_modules/**,temp/**}\" -- eclint check \"{,**/}*.{js,yml,md,json}\"",
     "example": "npm run example:link && npm run example:build && npm run example:unlink",
     "example:build": "cd example && ../node_modules/yo/lib/cli.js @sanemat/nm && cd ..",
