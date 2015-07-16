@@ -1,5 +1,4 @@
 'use strict';
-var superb = require('superb');
 var normalizeUrl = require('normalize-url');
 var humanizeUrl = require('humanize-url');
 var yeoman = require('yeoman-generator');
@@ -47,7 +46,6 @@ module.exports = yeoman.generators.Base.extend({
 				email: this.user.git.email(),
 				website: props.website,
 				humanizedWebsite: humanizeUrl(props.website),
-				superb: superb(),
 				cli: props.cli
 			};
 
