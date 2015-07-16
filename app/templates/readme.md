@@ -1,6 +1,6 @@
 # <%= moduleName %>
 
-[![Build Status][travis-image]][travis-url] [![Build Status][appveyor-image]][appveyor-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Build Status][appveyor-image]][appveyor-url]
 
 > My spectacular module
 
@@ -74,3 +74,5 @@ MIT © [<%= name %>](<%= website %>)
 [travis-image]: https://img.shields.io/travis/<%= githubUsername %>/<%= moduleName %>/master.svg
 [appveyor-url]: https://ci.appveyor.com/project/<%= githubUsername %>/<%= moduleName %>/branch/master
 [appveyor-image]: https://img.shields.io/appveyor/ci/<%= githubUsername %>/<%= moduleName %>/master.svg
+[npm-url]: https://npmjs.org/package/<%= moduleName %>
+[npm-image]: https://img.shields.io/npm/v/<%= moduleName %>.svg
