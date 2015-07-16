@@ -26,7 +26,6 @@ describe('generator', function () {
 			'.travis.yml',
 			'.tachikoma.yml',
 			'appveyor.yml',
-			'changelog.md',
 			'index.js',
 			'license',
 			'package.json',
