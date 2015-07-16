@@ -21,6 +21,7 @@ describe('generator', function () {
 	it('generates expected files', function (cb) {
 		var expected = [
 			'.editorconfig',
+			'.eslintrc',
 			'.gitattributes',
 			'.gitignore',
 			'.travis.yml',

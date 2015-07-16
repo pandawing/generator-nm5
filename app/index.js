@@ -63,6 +63,7 @@ module.exports = yeoman.generators.Base.extend({
 			}
 
 			mv('editorconfig', '.editorconfig');
+			mv('eslintrc', '.eslintrc');
 			mv('gitattributes', '.gitattributes');
 			mv('gitignore', '.gitignore');
 			mv('travis.yml', '.travis.yml');
