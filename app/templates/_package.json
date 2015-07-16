@@ -34,14 +34,16 @@
     "touch": "*",
     "conventional-changelog": "^0.1.0-beta",
     "eclint": "*",
-    "globstar": "*"
+    "globstar": "*",
+    "eslint": "^1.0.0-rc"
   },
   "scripts": {
     "changelog": "touch changelog.md && conventional-changelog -i changelog.md --overwrite --preset angular",
     "eclint": "globstar --ignore \"node_modules/**\" -- eclint check \"*.{js,yml,md,json}\"",
+    "eslint": "eslint .",
     "fixpack": "fixpack",
     "git:tag": "git tag v${npm_package_version}",
-    "lint": "npm run eclint",
+    "lint": "npm run eclint && npm run eslint",
     "test": "mocha",
     "verify": "npm run lint && npm run test"
   }
