@@ -1,6 +1,6 @@
 # <%= moduleName %>
 
-[![Build Status][travis-image]][travis-url]
+[![Build Status][travis-image]][travis-url] [![Build Status][appveyor-image]][appveyor-url]
 
 > My spectacular module
 
@@ -72,3 +72,5 @@ MIT © [<%= name %>](<%= website %>)
 
 [travis-url]: https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>
 [travis-image]: https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>.svg?branch=master
+[appveyor-url]: https://ci.appveyor.com/project/<%= githubUsername %>/<%= moduleName %>/branch/master
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/YOUR_KEY/branch/master?svg=true
