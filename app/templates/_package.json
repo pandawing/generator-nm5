@@ -37,6 +37,8 @@
   "scripts": {
     "changelog": "touch changelog.md && conventional-changelog -i changelog.md --overwrite --preset angular",
     "fixpack": "fixpack",
-    "git:tag": "git tag v${npm_package_version}"
+    "git:tag": "git tag v${npm_package_version}",
+    "test": "mocha",
+    "verify": "npm run test"
   }
 }
