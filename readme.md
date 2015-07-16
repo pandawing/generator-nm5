@@ -1,6 +1,6 @@
 # generator-nm
 
-[![Build Status][travis-image]][travis-url]
+[![Build Status][travis-image]][travis-url] [![Build Status][appveyor-image]][appveyor-url]
 
 > Scaffold out a [node module](https://github.com/sindresorhus/node-module-boilerplate)
 
@@ -44,3 +44,5 @@ MIT © [Sindre Sorhus](http://sindresorhus.com)
 
 [travis-url]: https://travis-ci.org/pandawing/generator-nm
 [travis-image]: https://travis-ci.org/pandawing/generator-nm.svg?branch=master
+[appveyor-url]: https://ci.appveyor.com/project/sanemat/generator-nm/branch/master
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/5ffy0tbjvo62p2vs/branch/master?svg=true
