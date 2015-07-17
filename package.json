@@ -1,7 +1,7 @@
 {
   "name": "@sanemat/generator-nm",
   "description": "Scaffold out a node module",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "author": {
     "name": "Sanemat",
     "email": "ogataken@gmail.com",
