@@ -22,6 +22,7 @@ example('unicorns');
 ```
 
 
+
 ## CLI
 
 ```
@@ -45,6 +46,7 @@ $ example --help
 ```
 
 
+
 ## API
 
 ### example(input, [options])
@@ -65,13 +67,16 @@ Default: `false`
 
 Lorem ipsum.
 
+
 ## Changelog
 
 [changelog.md](./changelog.md).
 
+
 ## License
 
 MIT © [sanemat](http://example.com)
+
 
 [travis-url]: https://travis-ci.org/sanemat/example
 [travis-image]: https://img.shields.io/travis/sanemat/example/master.svg?style=flat-square&label=travis
