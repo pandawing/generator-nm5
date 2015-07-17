@@ -41,17 +41,18 @@ Currently, it uses :
 
 * Lint
     * eslint
-    * eclint (editorconfig)
+    * eclint - editorconfig
 * CI
-    * travis-ci (ubuntu)
-    * appveyor (windows)
-    * tachikoma (tachikoma.io)
+    * travis-ci - Test on Ubuntu
+    * appveyor - Test on Windows
+    * tachikoma - Dependency Update as a Service. http://tachikoma.io
 * Test
     * mocha
     * power-assert
 * Utility
-    * fixpack
-    * conventional-changelog
+    * fixpack - Sort package.json
+    * conventional-changelog - Changelog
+    * david - Dependency Update
 
 ## Changelog
 
