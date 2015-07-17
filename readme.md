@@ -43,8 +43,8 @@ Currently, it uses :
     * eslint
     * eclint (editorconfig)
 * CI
-    * travis-ci
-    * appveyor
+    * travis-ci (ubuntu)
+    * appveyor (windows)
     * tachikoma (tachikoma.io)
 * Test
     * mocha
