@@ -22,6 +22,7 @@ var <%= camelModuleName %> = require('<%= moduleName %>');
 ```
 <% if (cli) { %>
 
+
 ## CLI
 
 ```
@@ -45,6 +46,7 @@ $ <%= moduleName %> --help
 ```
 <% } %>
 
+
 ## API
 
 ### <%= camelModuleName %>(input, [options])
@@ -65,13 +67,16 @@ Default: `false`
 
 Lorem ipsum.
 
+
 ## Changelog
 
 [changelog.md](./changelog.md).
 
+
 ## License
 
 MIT © [<%= name %>](<%= website %>)
+
 
 [travis-url]: https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>
 [travis-image]: https://img.shields.io/travis/<%= githubUsername %>/<%= moduleName %>/master.svg?style=flat-square&label=travis
