@@ -10,7 +10,8 @@ This is what I use for [my own modules](https://www.npmjs.com/~sanemat).
 
 ![](screenshot.png)
 
-A Cross-Platform Generator For OS X, Linux And Windows.
+A Cross-Platform Node.js ES5 Module Generator For OS X, Linux And Windows.
+
 
 ## Install
 
@@ -27,13 +28,16 @@ With [yo](https://github.com/yeoman/yo):
 $ yo @sanemat/nm
 ```
 
+
 ## Example
 
 [Build example](./example).
 
+
 ## Tip
 
 Use [chalk](https://github.com/sindresorhus/chalk) if you want colors in your CLI.
+
 
 ## Features
 
@@ -54,9 +58,11 @@ Currently, it uses :
     * conventional-changelog - Changelog
     * david - Dependency Update
 
+
 ## Changelog
 
 [changelog.md](./changelog.md).
+
 
 ## License
 
@@ -67,6 +73,7 @@ MIT © [Sanemat](http://sane.jp)
 ### Original [generator-nm](https://github.com/sindresorhus/generator-nm)
 
 MIT © [Sindre Sorhus](http://sindresorhus.com)
+
 
 [travis-url]: https://travis-ci.org/pandawing/generator-nm
 [travis-image]: https://img.shields.io/travis/pandawing/generator-nm/master.svg?style=flat-square&label=travis
