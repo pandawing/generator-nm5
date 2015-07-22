@@ -1,3 +1,13 @@
+<a name="2.0.5"></a>
+## 2.0.5 (2015-07-22)
+
+
+### Bug Fixes
+
+* **fixpack:** run fixpack sync ([6fe59f9](https://github.com/pandawing/generator-nm/commit/6fe59f9))
+
+
+
 <a name="2.0.4"></a>
 ## 2.0.4 (2015-07-17)
 
