@@ -1,6 +1,6 @@
 {
   "name": "@sanemat/generator-nm",
-  "description": "Scaffold out a node module",
+  "description": "A Cross-Platform Node.js ES5 Module Generator For OS X, Linux And Windows.",
   "version": "2.0.5",
   "author": {
     "name": "Sanemat",
