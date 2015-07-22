@@ -4,6 +4,7 @@ var helpers = require('yeoman-generator').test;
 var assert = require('yeoman-assert');
 
 describe('generator', function () {
+	this.timeout(10000);
 	beforeEach(function (cb) {
 		var deps = ['../app'];
 
@@ -16,6 +17,10 @@ describe('generator', function () {
 			this.generator = helpers.createGenerator('nm:app', deps, null, {skipInstall: true});
 			cb();
 		}.bind(this));
+	});
+
+	afterEach(function (cb) {
+		setTimeout(cb, 2000);
 	});
 
 	it('generates expected files', function (cb) {
