@@ -80,6 +80,6 @@ module.exports = yeoman.generators.Base.extend({
 		});
 	},
 	_injectDependencies: function () {
-		this.spawnCommand('npm', ['run', 'fixpack']);
+		this.spawnCommandSync('npm', ['run', 'fixpack']);
 	}
 });
