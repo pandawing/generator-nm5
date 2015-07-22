@@ -2,20 +2,29 @@
 var path = require('path');
 var helpers = require('yeoman-generator').test;
 var assert = require('yeoman-assert');
+var tmp = require('tmp');
 
 describe('generator', function () {
 	beforeEach(function (cb) {
-		var deps = ['../app'];
-
-		helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
+		tmp.setGracefulCleanup();
+		tmp.dir({ unsafeCleanup: true }, function (err, dir) {
 			if (err) {
 				cb(err);
 				return;
 			}
 
+			this.cwd = process.cwd();
+			console.log(process.cwd());
+			var deps = [path.resolve(this.cwd, './app')];
+
+			process.chdir(dir);
 			this.generator = helpers.createGenerator('nm:app', deps, null, {skipInstall: true});
 			cb();
 		}.bind(this));
+	});
+	afterEach(function (cb) {
+		process.chdir(this.cwd);
+		cb();
 	});
 
 	it('generates expected files', function (cb) {
