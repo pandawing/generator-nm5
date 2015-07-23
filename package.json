@@ -21,7 +21,7 @@
     "fixpack": "^2.2.0",
     "globstar": "^1.0.0",
     "mocha": "^2.2.5",
-    "run-yo": "^0.1.1",
+    "run-yo": "pandawing/node-run-yo#fix/run-command",
     "touch": "^1.0.0",
     "yeoman-assert": "^2.0.0"
   },
@@ -54,6 +54,6 @@
     "git:tag": "git tag v${npm_package_version}",
     "lint": "npm run eclint && npm run eslint",
     "test": "mocha",
-    "verify": "npm run lint && npm run test"
+    "verify": "npm run lint && npm run test && run-yo --debug"
   }
 }
