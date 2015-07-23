@@ -15,7 +15,7 @@ describe('generator', function () {
 				return;
 			}
 
-			this.generator = helpers.createGenerator('nm:app', deps, null, {skipInstall: true});
+			this.generator = helpers.createGenerator('nm5:app', deps, null, {skipInstall: true});
 			cb();
 		}.bind(this));
 	});

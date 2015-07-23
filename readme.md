@@ -1,4 +1,4 @@
-# generator-nm
+# generator-nm5
 
 [![NPM version][npm-image]][npm-url] [![Travis-CI Status][travis-image]][travis-url] [![Appveyor Status][appveyor-image]][appveyor-url] [![Daviddm Status][daviddm-image]][daviddm-url]
 
@@ -16,7 +16,7 @@ A Cross-Platform Node.js ES5 Module Generator For OS X, Linux And Windows.
 ## Install
 
 ```
-$ npm install --global @sanemat/generator-nm
+$ npm install --global generator-nm5
 ```
 
 
@@ -25,7 +25,7 @@ $ npm install --global @sanemat/generator-nm
 With [yo](https://github.com/yeoman/yo):
 
 ```
-$ yo @sanemat/nm
+$ yo nm5
 ```
 
 
@@ -66,7 +66,7 @@ Currently, it uses :
 
 ## License
 
-### Forked @sanemat/generator-nm
+### generator-nm5
 
 MIT © [Sanemat](http://sane.jp)
 
@@ -75,11 +75,11 @@ MIT © [Sanemat](http://sane.jp)
 MIT © [Sindre Sorhus](http://sindresorhus.com)
 
 
-[travis-url]: https://travis-ci.org/pandawing/generator-nm
-[travis-image]: https://img.shields.io/travis/pandawing/generator-nm/master.svg?style=flat-square&label=travis
-[appveyor-url]: https://ci.appveyor.com/project/sanemat/generator-nm/branch/master
-[appveyor-image]: https://img.shields.io/appveyor/ci/sanemat/generator-nm/master.svg?style=flat-square&label=appveyor
-[npm-url]: https://npmjs.org/package/@sanemat/generator-nm
-[npm-image]: https://img.shields.io/npm/v/@sanemat/generator-nm.svg?style=flat-square
-[daviddm-url]: https://david-dm.org/pandawing/generator-nm
-[daviddm-image]: https://img.shields.io/david/pandawing/generator-nm.svg?style=flat-square
+[travis-url]: https://travis-ci.org/pandawing/generator-nm5
+[travis-image]: https://img.shields.io/travis/pandawing/generator-nm5/master.svg?style=flat-square&label=travis
+[appveyor-url]: https://ci.appveyor.com/project/sanemat/generator-nm5/branch/master
+[appveyor-image]: https://img.shields.io/appveyor/ci/sanemat/generator-nm5/master.svg?style=flat-square&label=appveyor
+[npm-url]: https://npmjs.org/package/generator-nm5
+[npm-image]: https://img.shields.io/npm/v/generator-nm5.svg?style=flat-square
+[daviddm-url]: https://david-dm.org/pandawing/generator-nm5
+[daviddm-image]: https://img.shields.io/david/pandawing/generator-nm5.svg?style=flat-square

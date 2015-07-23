@@ -1,5 +1,5 @@
 {
-  "name": "@sanemat/generator-nm",
+  "name": "generator-nm5",
   "description": "A Cross-Platform Node.js ES5 Module Generator For OS X, Linux And Windows.",
   "version": "2.0.7",
   "author": {
@@ -43,7 +43,7 @@
     "yeoman-generator"
   ],
   "license": "MIT",
-  "repository": "pandawing/generator-nm",
+  "repository": "pandawing/generator-nm5",
   "scripts": {
     "changelog": "touch changelog.md && conventional-changelog -i changelog.md --overwrite --preset angular",
     "david": "david update",

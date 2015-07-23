@@ -16,7 +16,7 @@
 
 ### Bug Fixes
 
-* **fixpack:** run fixpack sync ([6fe59f9](https://github.com/pandawing/generator-nm/commit/6fe59f9))
+* **fixpack:** run fixpack sync ([6fe59f9](https://github.com/pandawing/generator-nm5/commit/6fe59f9))
 
 
 
@@ -26,7 +26,7 @@
 
 ### Features
 
-* **david:** add david ([da00d49](https://github.com/pandawing/generator-nm/commit/da00d49))
+* **david:** add david ([da00d49](https://github.com/pandawing/generator-nm5/commit/da00d49))
 
 
 
