@@ -4,6 +4,8 @@ var helpers = require('yeoman-generator').test;
 var assert = require('yeoman-assert');
 
 describe('generator', function () {
+	this.timeout(5000);
+
 	beforeEach(function (cb) {
 		var deps = ['../app'];
 
