@@ -1,3 +1,9 @@
+<a name="2.0.6"></a>
+## 2.0.6 (2015-07-23)
+
+* Use run-yo, Run a developing yo generator.
+
+
 <a name="2.0.5"></a>
 ## 2.0.5 (2015-07-22)
 
