@@ -21,7 +21,7 @@
     "fixpack": "^2.2.0",
     "globstar": "^1.0.0",
     "mocha": "^2.2.5",
-    "run-yo": "^0.1.1",
+    "run-yo": "pandawing/node-run-yo#chore/split-and-cross-spawn",
     "touch": "^1.0.0",
     "yeoman-assert": "^2.0.0"
   },
