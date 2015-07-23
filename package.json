@@ -20,14 +20,10 @@
     "eslint": "^1.0.0-rc-1",
     "fixpack": "^2.2.0",
     "globstar": "^1.0.0",
-    "lnfs-cli": "^1.0.0",
-    "mkdirp": "^0.5.1",
     "mocha": "*",
-    "nodetree": "^0.0.2",
-    "rimraf": "^2.4.1",
+    "run-yo": "^0.1.1",
     "touch": "^1.0.0",
-    "yeoman-assert": "^2.0.0",
-    "yo": "^1.4.7"
+    "yeoman-assert": "^2.0.0"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -53,15 +49,11 @@
     "david": "david update",
     "eclint": "globstar --ignore \"{{,**/}node_modules/**,temp/**}\" -- eclint check \"{,**/}*.{js,yml,md,json}\"",
     "eslint": "eslint .",
-    "example": "npm run example:link && npm run example:build && npm run example:unlink",
-    "example:build": "cd example && ../node_modules/.bin/yo @sanemat/nm && cd ..",
-    "example:link": "rimraf example && mkdirp example/node_modules/@sanemat && lnfs . example/node_modules/@sanemat/generator-nm",
-    "example:unlink": "rimraf example/node_modules/@sanemat/generator-nm",
+    "example": "run-yo",
     "fixpack": "fixpack",
     "git:tag": "git tag v${npm_package_version}",
     "lint": "npm run eclint && npm run eslint",
     "test": "mocha",
-    "verify": "npm run lint && npm run test && npm run example:link && npm run verify:link && npm run example:unlink && npm run verify:link",
-    "verify:link": "nodetree -L 2 example/node_modules/@sanemat/"
+    "verify": "npm run lint && npm run test"
   }
 }
