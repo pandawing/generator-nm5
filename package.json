@@ -49,11 +49,11 @@
     "david": "david update",
     "eclint": "globstar --ignore \"{{,**/}node_modules/**,temp/**}\" -- eclint check \"{,**/}*.{js,yml,md,json}\"",
     "eslint": "eslint .",
-    "example": "run-yo",
+    "example": "run-yo --unstable --debug",
     "fixpack": "fixpack",
     "git:tag": "git tag v${npm_package_version}",
     "lint": "npm run eclint && npm run eslint",
     "test": "mocha",
-    "verify": "npm run lint && npm run test"
+    "verify": "npm run lint && npm run test && npm run example"
   }
 }
