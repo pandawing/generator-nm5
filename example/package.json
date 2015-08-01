@@ -15,7 +15,7 @@
     "conventional-changelog": "*",
     "david": "*",
     "eclint": "*",
-    "eslint": "^1.0.0-rc",
+    "eslint": "*",
     "espower-loader": "*",
     "fixpack": "*",
     "globstar": "*",
