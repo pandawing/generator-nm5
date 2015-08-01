@@ -32,7 +32,7 @@
     "conventional-changelog": "*",
     "eclint": "*",
     "globstar": "*",
-    "eslint": "^1.0.0-rc",
+    "eslint": "*",
     "power-assert": "*",
     "espower-loader": "*",
     "david": "*"
