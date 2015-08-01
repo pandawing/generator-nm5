@@ -1,7 +1,7 @@
 {
   "name": "generator-nm5",
   "description": "A Cross-Platform Node.js ES5 Module Generator For OS X, Linux And Windows.",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "author": {
     "name": "Sanemat",
     "email": "ogataken@gmail.com",
