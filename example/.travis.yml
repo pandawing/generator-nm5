@@ -4,4 +4,6 @@ node_js:
   - 'iojs-3'
   - '0.12'
   - '0.10'
-script: "npm run verify"
+script: 'npm run verify'
+install:
+  - 'travis_retry npm install'
