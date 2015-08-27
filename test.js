@@ -30,11 +30,13 @@ describe('generator', function () {
 			'.tachikoma.yml',
 			'appveyor.yml',
 			'enable-power-assert.js',
+			'Execute-With-Retry.ps1',
 			'index.js',
 			'license',
 			'package.json',
 			'readme.md',
-			'test.js'
+			'test.js',
+			'windows_retry.cmd'
 		];
 
 		helpers.mockPrompt(this.generator, {
