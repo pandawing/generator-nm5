@@ -56,7 +56,7 @@ Currently, it uses :
 * Utility
     * fixpack - Sort package.json
     * conventional-changelog - Changelog
-    * david - Dependency Update
+    * npm-check-updates - Dependency Update
 
 
 ## Changelog
