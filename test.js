@@ -34,7 +34,8 @@ describe('generator', function () {
 			'license',
 			'package.json',
 			'readme.md',
-			'test.js'
+			'test.js',
+			'windows_retry.cmd'
 		];
 
 		helpers.mockPrompt(this.generator, {
