@@ -34,8 +34,7 @@
     "globstar": "*",
     "eslint": "*",
     "power-assert": "*",
-    "espower-loader": "*",
-    "david": "*"
+    "espower-loader": "*"
   },
   "scripts": {
     "changelog": "touch changelog.md && conventional-changelog -i changelog.md --overwrite --preset angular",
@@ -45,7 +44,6 @@
     "git:tag": "git tag v${npm_package_version}",
     "lint": "npm run eclint && npm run eslint",
     "test": "mocha --require ./enable-power-assert.js -- ./test.js",
-    "verify": "npm run lint && npm run test",
-    "david": "david update"
+    "verify": "npm run lint && npm run test"
   }
 }
