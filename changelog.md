@@ -1,3 +1,11 @@
+<a name="3.0.2"></a>
+## [3.0.2](https://github.com/pandawing/generator-nm5/compare/v3.0.1...v3.0.2) (2015-08-27)
+
+* Improve Travis-ci settings.
+* Improve Appveyor settings.
+* Use npm-check-updates instead of david.
+
+
 <a name="3.0.1"></a>
 ## 3.0.1 (2015-08-01)
 
