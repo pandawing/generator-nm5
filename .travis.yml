@@ -9,7 +9,8 @@ node_js:
   - '4'
 script: 'npm run verify'
 before_install:
-  - '[[ $TRAVIS_NODE_VERSION =~ ^(0\.1.*)$ ]] && npm -g install npm@"^2.0.0"'
+  - 'if [[ $TRAVIS_NODE_VERSION =~ ^(0\.1.*)$ ]]; then npm -g install npm@"~2.11.0"; fi'
+  - 'if [[ $TRAVIS_NODE_VERSION =~ ^(0\.1.*)$ ]]; then npm --version; fi'
 install:
   - 'travis_retry npm install'
 notifications:
