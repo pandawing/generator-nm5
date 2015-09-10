@@ -7,9 +7,6 @@ node_js:
   - 'iojs-3'
   - '4'
 script: 'npm run verify'
-before_install:
-  - 'if [[ $TRAVIS_NODE_VERSION =~ ^(0\.1.*)$ ]]; then travis_retry npm -g install npm@"~2.11.0"; fi'
-  - 'if [[ $TRAVIS_NODE_VERSION =~ ^(0\.1.*)$ ]]; then npm --version; fi'
 install:
   - 'travis_retry npm install'
 notifications:
