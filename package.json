@@ -52,7 +52,7 @@
     "fixpack": "fixpack",
     "git:tag": "git tag v${npm_package_version}",
     "lint": "npm run eclint && npm run eslint",
-    "ncu": "ncu -ua",
+    "ncu": "ncu -u",
     "test": "mocha",
     "verify": "npm run lint && npm run test"
   }
