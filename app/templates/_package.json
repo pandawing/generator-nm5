@@ -46,6 +46,6 @@
     "lint": "npm run eclint && npm run eslint",
     "test": "mocha --require ./enable-power-assert.js -- ./test.js",
     "verify": "npm run lint && npm run test",
-    "ncu": "ncu -ua"
+    "ncu": "ncu -u"
   }
 }
