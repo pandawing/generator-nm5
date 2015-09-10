@@ -8,6 +8,8 @@ node_js:
   - 'iojs-3'
   - '4'
 script: 'npm run verify'
+before_install:
+  - '[[ $TRAVIS_NODE_VERSION =~ ^(0\.1.*)$ ]] && npm -g install npm@"^2.0.0"'
 install:
   - 'travis_retry npm install'
 notifications:
