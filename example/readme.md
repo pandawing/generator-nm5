@@ -79,9 +79,9 @@ MIT © [sanemat](http://example.com)
 
 
 [travis-url]: https://travis-ci.org/sanemat/example
-[travis-image]: https://img.shields.io/travis/sanemat/example/master.svg?style=flat-square&label=travis
+[travis-image]: https://img.shields.io/travis/sanemat/example/master.svg?style=flat-square&label=build%20%28linux%29
 [appveyor-url]: https://ci.appveyor.com/project/sanemat/example/branch/master
-[appveyor-image]: https://img.shields.io/appveyor/ci/sanemat/example/master.svg?style=flat-square&label=appveyor
+[appveyor-image]: https://img.shields.io/appveyor/ci/sanemat/example/master.svg?style=flat-square&label=build%20%28windows%29
 [npm-url]: https://npmjs.org/package/example
 [npm-image]: https://img.shields.io/npm/v/example.svg?style=flat-square
 [daviddm-url]: https://david-dm.org/sanemat/example

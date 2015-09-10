@@ -76,9 +76,9 @@ MIT © [Sindre Sorhus](http://sindresorhus.com)
 
 
 [travis-url]: https://travis-ci.org/pandawing/generator-nm5
-[travis-image]: https://img.shields.io/travis/pandawing/generator-nm5/master.svg?style=flat-square&label=travis
+[travis-image]: https://img.shields.io/travis/pandawing/generator-nm5/master.svg?style=flat-square&label=build%20%28linux%29
 [appveyor-url]: https://ci.appveyor.com/project/sanemat/generator-nm5/branch/master
-[appveyor-image]: https://img.shields.io/appveyor/ci/sanemat/generator-nm5/master.svg?style=flat-square&label=appveyor
+[appveyor-image]: https://img.shields.io/appveyor/ci/sanemat/generator-nm5/master.svg?style=flat-square&label=build%20%28windows%29
 [npm-url]: https://npmjs.org/package/generator-nm5
 [npm-image]: https://img.shields.io/npm/v/generator-nm5.svg?style=flat-square
 [daviddm-url]: https://david-dm.org/pandawing/generator-nm5
