@@ -1,3 +1,13 @@
+<a name="3.1.0"></a>
+# [3.1.0](https://github.com/pandawing/generator-nm5/compare/v3.0.2...v3.1.0) (2015-09-10)
+
+
+### Features
+
+* **package:** drop node v0.10 ([d2302e1](https://github.com/pandawing/generator-nm5/commit/d2302e1))
+
+
+
 <a name="3.0.2"></a>
 ## [3.0.2](https://github.com/pandawing/generator-nm5/compare/v3.0.1...v3.0.2) (2015-08-27)
 
