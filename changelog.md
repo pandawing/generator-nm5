@@ -1,3 +1,9 @@
+<a name="3.1.1"></a>
+## [3.1.1](https://github.com/pandawing/generator-nm5/compare/v3.1.0...v3.1.1) (2015-10-02)
+
+* Update dependencies
+
+
 <a name="3.1.0"></a>
 # [3.1.0](https://github.com/pandawing/generator-nm5/compare/v3.0.2...v3.1.0) (2015-09-10)
 
