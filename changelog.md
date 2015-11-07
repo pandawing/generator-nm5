@@ -1,3 +1,9 @@
+<a name="3.1.2"></a>
+## [3.1.2](https://github.com/pandawing/generator-nm5/compare/v3.1.1...v3.1.2) (2015-11-07)
+
+* Update node versions
+
+
 <a name="3.1.1"></a>
 ## [3.1.1](https://github.com/pandawing/generator-nm5/compare/v3.1.0...v3.1.1) (2015-10-02)
 
