@@ -1,3 +1,13 @@
+<a name="3.1.3"></a>
+## [3.1.3](https://github.com/pandawing/generator-nm5/compare/v3.1.2...v3.1.3) (2015-12-25)
+
+
+### Bug Fixes
+
+* **yeoman:** update deprecated api ([cf558da](https://github.com/pandawing/generator-nm5/commit/cf558da))
+
+
+
 <a name="3.1.2"></a>
 ## [3.1.2](https://github.com/pandawing/generator-nm5/compare/v3.1.1...v3.1.2) (2015-11-07)
 
