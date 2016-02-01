@@ -20,8 +20,7 @@
     "globstar": "*",
     "mocha": "*",
     "npm-check-updates": "*",
-    "power-assert": "*",
-    "touch": "*"
+    "power-assert": "*"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -38,7 +37,7 @@
   "license": "MIT",
   "repository": "sanemat/example",
   "scripts": {
-    "changelog": "touch changelog.md && conventional-changelog -i changelog.md --overwrite --preset angular",
+    "changelog": "conventional-changelog -i changelog.md --overwrite --preset angular",
     "eclint": "globstar --ignore \"node_modules/**\" -- eclint check \"*.{js,yml,md,json}\"",
     "eslint": "eslint .",
     "fixpack": "fixpack",
