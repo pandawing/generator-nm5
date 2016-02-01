@@ -22,7 +22,6 @@
     "mocha": "^2.2.5",
     "npm-check-updates": "^2.2.0",
     "run-yo": "^1.0.0",
-    "touch": "^1.0.0",
     "yeoman-assert": "^2.0.0",
     "yeoman-test": "^1.0.0"
   },
@@ -46,7 +45,7 @@
   "license": "MIT",
   "repository": "pandawing/generator-nm5",
   "scripts": {
-    "changelog": "touch changelog.md && conventional-changelog -i changelog.md --overwrite --preset angular",
+    "changelog": "conventional-changelog -i changelog.md --overwrite --preset angular",
     "eclint": "globstar --ignore \"{{,**/}node_modules/**,temp/**}\" -- eclint check \"{,**/}*.{js,yml,md,json}\"",
     "eslint": "eslint .",
     "example": "run-yo",
