@@ -12,7 +12,7 @@
     "meow": "^3.3.0"
   },
   "devDependencies": {
-    "conventional-changelog": "*",
+    "conventional-changelog-cli": "*",
     "eclint": "*",
     "eslint": "*",
     "espower-loader": "*",
@@ -37,7 +37,7 @@
   "license": "MIT",
   "repository": "sanemat/example",
   "scripts": {
-    "changelog": "conventional-changelog -i changelog.md --overwrite --preset angular",
+    "changelog": "conventional-changelog -i changelog.md --same-file --preset angular",
     "eclint": "globstar --ignore \"node_modules/**\" -- eclint check \"*.{js,yml,md,json}\"",
     "eslint": "eslint .",
     "fixpack": "fixpack",
