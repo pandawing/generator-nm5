@@ -28,7 +28,7 @@
   "devDependencies": {
     "mocha": "*",
     "fixpack": "*",
-    "conventional-changelog": "*",
+    "conventional-changelog-cli": "*",
     "eclint": "*",
     "globstar": "*",
     "eslint": "*",
@@ -37,7 +37,7 @@
     "npm-check-updates": "*"
   },
   "scripts": {
-    "changelog": "conventional-changelog -i changelog.md --overwrite --preset angular",
+    "changelog": "conventional-changelog -i changelog.md --same-file --preset angular",
     "eclint": "globstar --ignore \"node_modules/**\" -- eclint check \"*.{js,yml,md,json}\"",
     "eslint": "eslint .",
     "fixpack": "fixpack",

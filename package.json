@@ -45,7 +45,7 @@
   "license": "MIT",
   "repository": "pandawing/generator-nm5",
   "scripts": {
-    "changelog": "conventional-changelog -i changelog.md --overwrite --preset angular",
+    "changelog": "conventional-changelog -i changelog.md --same-file --preset angular",
     "eclint": "globstar --ignore \"{{,**/}node_modules/**,temp/**}\" -- eclint check \"{,**/}*.{js,yml,md,json}\"",
     "eslint": "eslint .",
     "example": "run-yo",
