@@ -1,3 +1,10 @@
+<a name="3.2.0"></a>
+# [3.2.0](https://github.com/pandawing/generator-nm5/compare/v3.1.5...v3.2.0) (2016-08-20)
+
+* Update dependencies.
+* Drop/add suport nodejs versions.
+
+
 <a name="3.1.5"></a>
 ## [3.1.5](https://github.com/pandawing/generator-nm5/compare/v3.1.4...v3.1.5) (2016-02-09)
 
