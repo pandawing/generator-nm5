@@ -75,7 +75,7 @@ Lorem ipsum.
 
 ## License
 
-MIT © [sanemat](http://example.com)
+MIT © [Sanemat](http://example.com)
 
 
 [travis-url]: https://travis-ci.org/sanemat/example
