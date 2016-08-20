@@ -34,12 +34,13 @@
     "eslint": "*",
     "power-assert": "*",
     "espower-loader": "*",
-    "npm-check-updates": "*"
+    "npm-check-updates": "*",
+    "node-version-check": "*"
   },
   "scripts": {
     "changelog": "conventional-changelog -i changelog.md --same-file --preset angular",
     "eclint": "globstar --ignore \"node_modules/**\" -- eclint check \"*.{js,yml,md,json}\"",
-    "eslint": "eslint .",
+    "eslint": "node-version-check '>=4' && eslint . || node-version-check '<4'",
     "fixpack": "fixpack",
     "git:tag": "git tag v${npm_package_version}",
     "lint": "npm run eclint && npm run eslint",
