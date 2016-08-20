@@ -6,9 +6,7 @@ var _s = require('underscore.string');
 
 module.exports = yeoman.Base.extend({
 	init: function () {
-		var cb = this.async();
-
-		this.prompt([{
+		return this.prompt([{
 			name: 'moduleName',
 			message: 'What do you want to name your module?',
 			default: this.appname.replace(/\s/g, '-'),
@@ -37,7 +35,7 @@ module.exports = yeoman.Base.extend({
 			message: 'Do you need a CLI?',
 			type: 'confirm',
 			default: false
-		}], function (props) {
+		}]).then(function (props) {
 			var tpl = {
 				moduleName: props.moduleName,
 				camelModuleName: _s.camelize(props.moduleName),
@@ -69,8 +67,6 @@ module.exports = yeoman.Base.extend({
 			mv('travis.yml', '.travis.yml');
 			mv('tachikoma.yml', '.tachikoma.yml');
 			mv('_package.json', 'package.json');
-
-			cb();
 		}.bind(this));
 	},
 	install: function () {
