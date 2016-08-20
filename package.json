@@ -48,7 +48,7 @@
   "scripts": {
     "changelog": "conventional-changelog -i changelog.md --same-file --preset angular",
     "eclint": "globstar --ignore \"{{,**/}node_modules/**,temp/**}\" -- eclint check \"{,**/}*.{js,yml,md,json}\"",
-    "eslint": "node-version-gte-4 && eslint . || node-version-lt-4",
+    "eslint": "node-version-check \">=4\" && eslint . || node-version-check \"<4\"",
     "example": "run-yo",
     "fixpack": "fixpack",
     "git:tag": "git tag v${npm_package_version}",
