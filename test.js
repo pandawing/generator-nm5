@@ -39,7 +39,7 @@ describe('generator', function () {
 
 		helpers.mockPrompt(this.generator, {
 			moduleName: 'test',
-			githubUsername: 'test',
+				githubUsername: 'test',
 			website: 'test.com',
 			cli: false
 		});
