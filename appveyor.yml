@@ -11,7 +11,7 @@ environment:
 
 # install
 install:
-- ps: appveyor-retry Install-Product node $env:nodejs_version
+- ps: Install-Product node $env:nodejs_version
 - node --version
 - npm --version
 - appveyor-retry npm install
