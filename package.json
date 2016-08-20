@@ -11,15 +11,16 @@
     "humanize-url": "^1.0.1",
     "normalize-url": "^1.3.0",
     "underscore.string": "^3.2.0",
-    "yeoman-generator": "^0.22.1"
+    "yeoman-generator": "^0.24.1"
   },
   "devDependencies": {
     "conventional-changelog-cli": "^1.0.0",
     "eclint": "^1.1.1",
-    "eslint": "^2.2.0",
+    "eslint": "^3.3.1",
     "fixpack": "^2.2.0",
     "globstar": "^1.0.0",
-    "mocha": "^2.2.5",
+    "mocha": "^3.0.2",
+    "node-version-check": "^2.1.0",
     "npm-check-updates": "^2.2.0",
     "run-yo": "^1.0.0",
     "yeoman-assert": "^2.0.0",
@@ -47,7 +48,7 @@
   "scripts": {
     "changelog": "conventional-changelog -i changelog.md --same-file --preset angular",
     "eclint": "globstar --ignore \"{{,**/}node_modules/**,temp/**}\" -- eclint check \"{,**/}*.{js,yml,md,json}\"",
-    "eslint": "eslint .",
+    "eslint": "node-version-gte-4 && eslint . || node-version-lt-4",
     "example": "run-yo",
     "fixpack": "fixpack",
     "git:tag": "git tag v${npm_package_version}",
