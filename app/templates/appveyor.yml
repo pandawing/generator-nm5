@@ -13,6 +13,7 @@ environment:
 install:
 - ps: Install-Product node $env:nodejs_version
 - node --version
+- npm update -g npm
 - npm --version
 - appveyor-retry npm install
 
