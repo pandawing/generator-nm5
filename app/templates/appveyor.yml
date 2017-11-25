@@ -11,10 +11,10 @@ environment:
 
 # install
 install:
-- ps: Install-Product node $env:nodejs_version
+- cmd: appveyor-retry powershell Install-Product node $env:nodejs_version
 - node --version
 - npm --version
-- appveyor-retry npm install
+- appveyor-retry call npm install
 
 # build
 build: off
