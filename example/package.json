@@ -23,7 +23,7 @@
     "power-assert": "*"
   },
   "engines": {
-    "node": ">=0.12.0"
+    "node": ">=6.0.0"
   },
   "files": [
     "index.js",
