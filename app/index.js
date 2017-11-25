@@ -1,7 +1,7 @@
 'use strict';
 var normalizeUrl = require('normalize-url');
 var humanizeUrl = require('humanize-url');
-const Generator = require('yeoman-generator');
+var Generator = require('yeoman-generator');
 var _s = require('underscore.string');
 
 module.exports = class extends Generator {
