@@ -10,32 +10,24 @@ module.exports = class extends Generator {
 			name: 'moduleName',
 			message: 'What do you want to name your module?',
 			default: this.appname.replace(/\s/g, '-'),
-			filter: function (val) {
-				return _s.slugify(val);
-			}
+			filter: x => _s.slugify(x)
 		}, {
 			name: 'githubUsername',
 			message: 'What is your GitHub username?',
 			store: true,
-			validate: function (val) {
-				return val.length > 0 ? true : 'You have to provide a username';
-			}
+			validate: x => x.length > 0 ? true : 'You have to provide a username'
 		}, {
 			name: 'website',
 			message: 'What is the URL of your website?',
 			store: true,
-			validate: function (val) {
-				return val.length > 0 ? true : 'You have to provide a website URL';
-			},
-			filter: function (val) {
-				return normalizeUrl(val);
-			}
+			validate: x => x.length > 0 ? true : 'You have to provide a website URL',
+			filter: x => normalizeUrl(x)
 		}, {
 			name: 'cli',
 			message: 'Do you need a CLI?',
 			type: 'confirm',
 			default: false
-		}]).then(function (props) {
+		}]).then(props => {
 			const tpl = {
 				moduleName: props.moduleName,
 				camelModuleName: _s.camelize(props.moduleName),
@@ -47,9 +39,9 @@ module.exports = class extends Generator {
 				cli: props.cli
 			};
 
-			const mv = function (from, to) {
+			const mv = (from, to) => {
 				this.fs.move(this.destinationPath(from), this.destinationPath(to));
-			}.bind(this);
+			};
 
 			this.fs.copyTpl([
 				this.templatePath() + '/**',
@@ -67,7 +59,7 @@ module.exports = class extends Generator {
 			mv('travis.yml', '.travis.yml');
 			mv('tachikoma.yml', '.tachikoma.yml');
 			mv('_package.json', 'package.json');
-		}.bind(this));
+		});
 	}
 	install () {
 		this.installDependencies({
