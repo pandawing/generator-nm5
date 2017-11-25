@@ -1,13 +1,13 @@
 'use strict';
-var path = require('path');
-var helpers = require('yeoman-test');
-var assert = require('yeoman-assert');
+const path = require('path');
+const helpers = require('yeoman-test');
+const assert = require('yeoman-assert');
 
 describe('generator', function () {
 	this.timeout(5000);
 
 	beforeEach(function (cb) {
-		var deps = ['../app'];
+		const deps = ['../app'];
 
 		helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
 			if (err) {
@@ -21,7 +21,7 @@ describe('generator', function () {
 	});
 
 	it('generates expected files', function (cb) {
-		var expected = [
+		const expected = [
 			'.editorconfig',
 			'.eslintrc',
 			'.gitattributes',

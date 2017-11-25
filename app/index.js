@@ -1,8 +1,8 @@
 'use strict';
-var normalizeUrl = require('normalize-url');
-var humanizeUrl = require('humanize-url');
-var Generator = require('yeoman-generator');
-var _s = require('underscore.string');
+const normalizeUrl = require('normalize-url');
+const humanizeUrl = require('humanize-url');
+const Generator = require('yeoman-generator');
+const _s = require('underscore.string');
 
 module.exports = class extends Generator {
 	init () {
@@ -36,7 +36,7 @@ module.exports = class extends Generator {
 			type: 'confirm',
 			default: false
 		}]).then(function (props) {
-			var tpl = {
+			const tpl = {
 				moduleName: props.moduleName,
 				camelModuleName: _s.camelize(props.moduleName),
 				githubUsername: props.githubUsername,
@@ -47,7 +47,7 @@ module.exports = class extends Generator {
 				cli: props.cli
 			};
 
-			var mv = function (from, to) {
+			const mv = function (from, to) {
 				this.fs.move(this.destinationPath(from), this.destinationPath(to));
 			}.bind(this);
 
