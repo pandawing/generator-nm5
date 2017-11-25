@@ -1,11 +1,11 @@
 'use strict';
 var normalizeUrl = require('normalize-url');
 var humanizeUrl = require('humanize-url');
-var yeoman = require('yeoman-generator');
+var Generator = require('yeoman-generator');
 var _s = require('underscore.string');
 
-module.exports = yeoman.Base.extend({
-	init: function () {
+module.exports = class extends Generator {
+	init () {
 		return this.prompt([{
 			name: 'moduleName',
 			message: 'What do you want to name your module?',
@@ -68,14 +68,14 @@ module.exports = yeoman.Base.extend({
 			mv('tachikoma.yml', '.tachikoma.yml');
 			mv('_package.json', 'package.json');
 		}.bind(this));
-	},
-	install: function () {
+	}
+	install () {
 		this.installDependencies({
 			bower: false,
 			callback: this._injectDependencies.bind(this)
 		});
-	},
-	_injectDependencies: function () {
+	}
+	_injectDependencies () {
 		this.spawnCommandSync('npm', ['run', 'fixpack']);
 	}
-});
+};
