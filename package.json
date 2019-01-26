@@ -8,21 +8,21 @@
     "url": "http://sane.jp"
   },
   "dependencies": {
-    "humanize-url": "^1.0.1",
-    "normalize-url": "^1.3.0",
+    "humanize-url": "^2.0.0",
+    "normalize-url": "^4.1.0",
     "underscore.string": "^3.2.0",
-    "yeoman-generator": "^1.0.0"
+    "yeoman-generator": "^3.2.0"
   },
   "devDependencies": {
-    "conventional-changelog-cli": "^1.0.0",
-    "eclint": "^1.1.1",
-    "eslint": "^3.3.1",
+    "conventional-changelog-cli": "^2.0.11",
+    "eclint": "^2.8.1",
+    "eslint": "^5.12.1",
     "fixpack": "^2.2.0",
     "globstar": "^1.0.0",
-    "mocha": "^3.0.2",
+    "mocha": "^5.2.0",
     "npm-check-updates": "^2.2.0",
     "run-yo": "^1.0.0",
-    "yeoman-assert": "^2.0.0",
+    "yeoman-assert": "^3.1.1",
     "yeoman-test": "^1.0.0"
   },
   "engines": {
